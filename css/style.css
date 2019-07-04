@@ -215,3 +215,21 @@ hr {
 .modal-dialog-footer ul li a.linx{
 	color:#00b900;
 }
+.btn-dlx {
+    display: block;
+    margin: 25px auto 0;
+    padding: 5px;
+    text-decoration: none;
+    color: #FFF;
+    background: rgba(0, 0, 0, 0.8);
+    transition: all .2s linear;
+}
+.btn-dlx:hover {
+    background: #333;
+    transition: all .2s linear;
+}
+@media screen and (max-width: 728px){
+    .modal-dialog-wrap{
+        margin-top: 40%;
+    }
+}
